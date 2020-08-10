@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const config = require('.config.json');
 
 let movieTime = '8pm'
 
@@ -30,4 +31,4 @@ client.on('message', message => {
 
 });
 
-client.login('NzQwMzkwMzE5MzA4Mjc1ODU0.XyoUNw.jexxueKdMlKKu76eLsGTUIv81bc');
+client.login(config.token);
