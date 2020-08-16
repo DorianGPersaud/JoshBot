@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require('./config.json');
 
-let movieTime = '8pm'
+let movieTime
 
 client.once('ready', () => {
     console.log('JoshBot is online!');
