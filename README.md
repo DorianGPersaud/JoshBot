@@ -1,4 +1,4 @@
-# JoshBot - A Discord bot made by Josh and Dorian to help us automate certain tasks within our community's server.
+# Josh Bot - A Discord bot made by Josh and Dorian 
 
 
 In command line, execute:
